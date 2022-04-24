@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI kalkulačka</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="stred">
+  <h1>BMI kalkulačka</h1>
+
+  <div class="zobrazovac">
+    <p id="vysledek">20.0</p>
+    <p id="zarazeni">Normalní váha</p>
+  </div>
+
+  <div class="vstup">
+    <p>Zadej svou váhu v kg: <input type="number" min="20" max="250" value="20" id="vaha" oninput="calc()"></p>
+    <p>Zadej svou výšku v cm: <input type="number" min="80" max="250" value="80" id="vyska" oninput="calc()"></p>
+  </div>
+</div>
+
+<script src="js_bmi.js"></script>
+
+
+</body>
+</html>
